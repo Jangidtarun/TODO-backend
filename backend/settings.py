@@ -54,7 +54,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
+     'http://localhost:3000',
+     'https://todo-frontend-7bd9umqjo-tarun-jangids-projects.vercel.app/'
 ]
 
 ROOT_URLCONF = 'backend.urls'
